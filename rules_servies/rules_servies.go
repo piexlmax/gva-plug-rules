@@ -2,7 +2,7 @@ package rules_servies
 
 import (
 	"github.com/jinzhu/gorm"
-	"github.com/piexlmax/gva-plug-rules/rules-model"
+	"github.com/piexlmax/gva-plug-rules/rules_model"
 )
 
 func RegisterApi(db *gorm.DB, apis []rules_model.GvaPlugApi) {
